@@ -1,2 +1,2 @@
-#Vitmin
-##Guide to Vitamins & Minerals
+# Vitmin
+## Guide to Vitamins & Minerals
