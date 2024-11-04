@@ -1,1 +1,28 @@
+/**INSPO: 
+main < https://ph.pinterest.com/pin/4011087173035044/ 
+content < https://ph.pinterest.com/pin/492649951855554/ https://ph.pinterest.com/pin/38421403066680214/ https://ph.pinterest.com/pin/470907704805561758/**/
+
+:root{--first-color:white;--second-color:black;--btn-color:black;--btnHover-color:#ED1B24;}
+*{font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;margin:0;}
+
+/* HOME */
+.container{display:flex;flex-direction:row;justify-content: center;}
+.container, .black, .white{height:100%;width:100%;}
+.black{background-color:var(--second-color);text-align: right;}
+.container .black h1, .container .white h1{font-size: 5rem;}
+.container .black h1{margin-right: 20px;}
+.black a{text-decoration: none;color:var(--first-color);}
+.black a:hover{text-decoration:underline wavy white;}
+
+/* VITAMIN */
+#jap-font-pixel{width:200;height:3%;}
+.header .blackBox{background-color:var(--second-color);height:30px;width:100%;}
+.blackBox-container{display:flex;width:100%;}
+.blackBox-container h1, #jap-font-pixel{margin:30px 25px;font-size:5rem;}
+.buttons, .gallery{margin-left:30px;}
+.buttons button{border:none;background-color:var(--btn-color);color:var(--first-color);padding:7px;font-size: 1rem;}
+.buttons button:hover{background-color: var(--first-color);border:solid 1px var(--second-color);color:var(--second-color);}
+.gallery{margin-top:50px;overflow:auto;white-space:nowrap;}
+table{border-collapse:collapse;}
+td, th{text-align:left;border-bottom:1px solid black;padding:8px;}
 
