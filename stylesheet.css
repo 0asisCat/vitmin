@@ -7,12 +7,15 @@ content < https://ph.pinterest.com/pin/492649951855554/ https://ph.pinterest.com
 
 /* HOME */
 .container{display:flex;flex-direction:row;justify-content: center;}
-.container, .black, .white{height:100%;width:100%;}
+.container, .black, .white{height:850px;width:100%;}
 .black{background-color:var(--second-color);text-align: right;}
 .container .black h1, .container .white h1{font-size: 5rem;}
 .container .black h1{margin-right: 20px;}
-.black a{text-decoration: none;color:var(--first-color);}
-.black a:hover{text-decoration:underline wavy white;}
+.container .white h1{margin-left: 20px;}
+.black a, .white a{text-decoration: none;}
+.black a{color:var(--first-color);}
+.white a{color:var(--second-color);}
+.black a:hover, .white a:hover{text-decoration:underline wavy;}
 
 /* VITAMIN */
 #jap-font-pixel{width:200;height:3%;}
